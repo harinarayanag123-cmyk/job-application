@@ -13,7 +13,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 
     // Name check
     if (name === "") {
-        setError("name", "Name is required");
+        setError("name", "Name");
         isValid = false;
     }
 
